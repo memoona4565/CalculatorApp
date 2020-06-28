@@ -1,0 +1,61 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+</head>
+
+<body class="body">
+    
+<div class="main">
+    <div>
+        <input id="ent" class="show" type="text" placeholder="0">
+    </div>
+    <div>
+        <button class="cancel" onclick="cancel()">C</button>
+        <button class="percent" onclick="getNumber('%')">%</button>
+        <button class="cancel1" onclick="backSpace()">&#8592;</button>
+        
+    </div>
+    <div>
+        <button class="btn" onclick="getNumber('7')">7</button>
+        <button class="btn"  onclick="getNumber('8')">8</button>
+        <button class="btn"  onclick="getNumber('9')">9</button>
+        <button class="btn"  onclick="getNumber('*')">x</button>
+    </div>
+    <div>
+        <button class="btn"  onclick="getNumber('4')">4</button>
+        <button class="btn"  onclick="getNumber('5')">5</button>
+        <button class="btn"  onclick="getNumber('6')">6</button>
+        <button class="btn"  onclick="getNumber('-')">-</button>
+    </div>
+    <div>
+        <button class="btn"  onclick="getNumber('1')">1</button>
+        <button class="btn"  onclick="getNumber('2')">2</button>
+        <button class="btn"  onclick="getNumber('3')">3</button>
+        <button class="btn"  onclick="getNumber('+')">+</button>
+    </div>
+    <div>
+        <button class="btn"  onclick="getNumber('00')">00</button>
+        <button class="btn"  onclick="getNumber('0')">0</button>
+        <button class="btn"  onclick="getNumber('.')">.</button>
+        <button class="btn"  onclick="getResult()">=</button>
+    </div>
+
+</div>
+
+
+<div class="me">
+    <p>
+        MADE BY MEMOONA TARIQ
+    </p>
+</div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
